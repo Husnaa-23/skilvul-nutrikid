@@ -1,0 +1,534 @@
+/*all*/
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/*navigation bar*/
+.navbar {
+    display: flex;
+    width: 100%;
+    padding: 2%;
+    margin-left: 0%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: var(--colors-brand-150, #CFE4FA);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80%;
+    height: auto;
+    text-align: center;
+    background: var(--colors-brand-150, #CFE4FA);
+}
+
+.list1 {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+
+.list1 ul {
+    display: flex;
+    transform: rotate(-0.005deg);
+    align-items: center;
+    gap: 20%;
+    list-style: none
+}
+
+nav .logo {
+    height: 32px;
+    width: 128px;
+}
+
+.list1 li{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.list1 a{
+    color: #7A7A7A;
+    font-weight: bold;
+    float: left;
+    display: block;
+    text-decoration: none;
+}
+
+.list2 {
+    display: flex;
+    transform: rotate(-0.005deg);
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    list-style: none;
+}
+
+.list2 a{
+    text-decoration: none;
+    color: #7A7A7A;
+    font-weight: bold;
+}
+
+.list2 button {
+    display: flex;
+    width: 123.498px;
+    height: 46px;
+    padding: 8px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: var(--Large, 6px);
+    border-radius: 12px;
+    border: none;
+    background: #AB87FF;
+    color: white;
+}
+
+.list2 button a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+/*konsultasi nutrikid*/
+#konsultasi {
+    display: inline-flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10%;
+    align-items: flex-start;
+    gap: 129px;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gambar{
+    width: 70%;
+    height: 70%;
+    flex-shrink: 0;
+    background: linear-gradient(37deg, #FFACE4 37.27%, rgba(255, 172, 228, 0.00) 100%);
+    text-align: center;
+    border-radius: 30em 60em 40em 50em ;
+}
+
+.gambar img{
+    width: 50%;
+    height: 50%;
+}
+
+.textkonsultasi {
+    display: flex;
+    padding: var(--size-none, 0px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10%;
+    font-family: Segoe UI;
+}
+
+#konsultasi h1 {
+    color: palevioletred;
+}
+
+button.konsultasi {
+    display: flex;
+    padding: 5% 5%;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--X-Large, 8px);
+    background: var(--nutrikid-primary-purple-1, #AB87FF);
+    border: none;
+}
+
+button.konsultasi a {
+    text-decoration: none;
+    color:white;
+    font-weight:200;
+}
+
+/*program nutrikid*/
+#program {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5%;
+    flex-shrink: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titleprogram {
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0%;
+    text-align: center;
+}
+
+.titleprogram h2 {
+    font-size: 200% ;
+    font-style: normal;
+    line-height: 100%;
+    color:#AB87FF
+}
+
+.titleprogram h3 {
+    font-size: 100%;
+    font-style: normal;
+    line-height: 100%;
+}
+
+.card {
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    align-items: flex-start;
+    gap: 3%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardprogram {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    padding: 1%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0%;
+    flex-shrink: 0;
+    border-radius: 5%;
+    background-color: rgb(243, 243, 243);
+    justify-content: center;
+    text-align: left;
+}
+
+.cardprogram p, .cardprogram h4, .cardprogram h5 {
+    margin: 0%;
+    padding: 1%;
+    height: 100%;
+    width: 100%;
+    line-height: 5%;
+}
+
+.cardprogram img {
+    height: auto;
+    width: auto;
+}
+
+.textprogram {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+/* artikel*/
+#article {
+    display: flex;
+    padding: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titlearticle{
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0%;
+    text-align: center;
+}
+
+.titlearticle h2 {
+    font-size: 200% ;
+    font-style: normal;
+    line-height: 100%;
+    color:#AB87FF
+}
+
+.titleprogram h3 {
+    font-size: 100%;
+    font-style: normal;
+    line-height: 100%;
+}
+.contentarticle {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    padding: 0%;
+    margin: 0%;
+    justify-content: center;
+    align-content: center;
+    align-items:first baseline;
+    gap: 1%;
+}
+
+.mainarticle {
+    display: flex;
+    padding: 2%;
+    margin: 0%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3%;
+    line-height: 100%;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 2%;
+    border-style: solid;
+    border-color: #CFE4FA;
+}
+
+.articletext {
+    margin: 0%;
+    padding: 0%;
+    height: auto;
+    width: auto;
+    text-align: justify;
+}
+
+.mainarticle img{
+    height: auto;
+    width: auto;
+}
+
+.cardcolumn {
+    display: flex;
+    padding: 2%;
+    margin: 0%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1%;
+    flex: 1 0 0;
+}
+
+.cardcolumn h5, .cardcolumn h6 {
+    margin: 0%;
+    padding: 0%;
+    height: auto;
+    width: auto;
+    line-height: 100%;
+    text-align: justify;
+}
+
+.cardrow1,.cardrow2{
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    margin-bottom: 5%;
+    padding: 0%;
+    align-items: flex-start;
+    gap: 1%;
+    align-self: stretch;
+}
+
+.cardarticle {
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3%;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 5px;
+    background-color: #f0f7ff;
+}
+
+.cardarticle img{
+    height: auto;
+}
+
+/* testimoni */
+#testimonials {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#testimonials h2{
+    font-size: 200% ;
+    font-style: normal;
+    line-height: 100%;
+    color:#AB87FF;
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.testimonialscontent {
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    align-items: flex-start;
+    gap: 2%;
+    flex: 1 0 0;
+    flex-direction: row;
+}
+
+.cardtestimonials {
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    gap: 3%;
+    flex: 1 0 0;
+    border-radius: 10px;
+    background-color:#CFE4FA;
+}
+
+.respondent {
+    display: flex;
+    width: 80%;
+    padding: 0%;
+    align-items: center;
+    gap: 10px;
+}
+
+/*form*/
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 100% fit-content;
+    padding: 2%;
+    margin: 0 auto;
+    background-color:#D1D9E2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#form h2 {
+    font-size: 200% ;
+    font-style: normal;
+    line-height: 100%;
+    color:#AB87FF;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-left: 20%;
+
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+}
+
+#status{
+    height: 10%;
+    width: 5%;
+}
+
+input{
+    width: 80%;
+    border-color: #AB87FF;
+}
+
+#status{
+    margin: 0%
+}
+
+#submit-form {
+    padding: 1% 1%;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--X-Large, 8px);
+    background: var(--nutrikid-primary-purple-1, #AB87FF);
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    text-decoration: none;
+    font-size: small;
+    margin: 0%
+}
+
+label{
+    font-weight: 50%;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    width: 100%;
+    padding: 5% 0%;
+    flex-direction: column;
+    align-items: center;
+    background: var(--colors-brand-150, #CFE4FA);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footercontainer {
+    display: flex;
+    width: 1280px;
+    padding: var(--size-none, 0px) 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.footercontainer li {
+    list-style: none;
+}
+
+.contentfooter1 {
+    display: flex;
+    padding: var(--size-none, 0px);
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.contentfooter2 {
+    display: flex;
+    padding: 12px var(--size-none, 0px);
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-top: 1px solid var(--neutral-700, #D1D9E2);
+}
+
+
+
+
+
+
+
+
